@@ -25,7 +25,7 @@
         {
             try
             {
-                Navigation.PushAsync(new Categoria.comedia());
+                Navigation.PushAsync(new Categoria.comedia1());
 
             }
             catch (Exception ex)

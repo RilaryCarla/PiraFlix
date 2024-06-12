@@ -2,11 +2,30 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="PiraFlix.Categoria.infantil"
-             Title="infantil">
-    <VerticalStackLayout>
-        <Label 
-            Text="Welcome to .NET MAUI!"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
-    </VerticalStackLayout>
+             Title="infantil"
+             BackgroundColor="Black">
+
+    <ContentPage.Content Style = "{StaticResourse Back}">
+
+        <Grid RowDefinitions="80, *" ColumnDefinitions=" *" RowSpacing="10" ColumnSpacing="10" Margin="10"
+             VerticalOptions="FillAndExpand">
+
+            <Label Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" Text="Animação" BackgroundColor="AliceBlue" TextColor="Red" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" FontSize="50"/>
+
+            <ScrollView Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2">
+
+                <Grid RowDefinitions="300, 300" ColumnDefinitions="*, *" RowSpacing="10" ColumnSpacing="10" Margin="10"
+     VerticalOptions="FillAndExpand">
+
+                    <ImageButton Grid.Row="0" Grid.Column="0" x:Name="osegredodosanimais" BackgroundColor="Black" Source="osegredo.jpg" Clicked="osegredodosanimais_Clicked"/>
+                    <ImageButton Grid.Row="0" Grid.Column="1" x:Name="aorigemdosguardioes" BackgroundColor="Black" Source="aorigem.jpg" Clicked="aorigemdosguardioes_Clicked" />
+                    <ImageButton Grid.Row="1" Grid.Column="0" x:Name="afantasticafabricadechocolate" BackgroundColor="Black" Source="afantastica.jpg" Clicked="afantasticafabricadechocolate_Clicked"/>
+                    <ImageButton Grid.Row="1" Grid.Column="1" x:Name="beemovie" BackgroundColor="Black" Source="beemovie.jpg" Clicked="beemovie_Clicked"/>
+
+                </Grid>
+            </ScrollView>
+        </Grid>
+
+    </ContentPage.Content>
+    
 </ContentPage>

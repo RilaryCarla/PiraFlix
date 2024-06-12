@@ -65,11 +65,11 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <None Remove="Resources\Images\a5ª.jpg" />
 	  <None Remove="Resources\Images\acincopassos.jpg" />
 	  <None Remove="Resources\Images\afantastica.jpg" />
 	  <None Remove="Resources\Images\anoiva.jpg" />
 	  <None Remove="Resources\Images\aorigem.jpg" />
+	  <None Remove="Resources\Images\aquintaonda.jpg" />
 	  <None Remove="Resources\Images\asvantagens.jpg" />
 	  <None Remove="Resources\Images\ateoultimohomem.jpg" />
 	  <None Remove="Resources\Images\beemovie.jpg" />
@@ -122,6 +122,9 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <Compile Update="Filmes\aquintaonda.xaml.cs">
+	    <DependentUpon>aquintaonda.xaml</DependentUpon>
+	  </Compile>
 	  <Compile Update="Filmes\oppemheimer.xaml.cs">
 	    <DependentUpon>oppemheimer.xaml</DependentUpon>
 	  </Compile>
@@ -132,6 +135,9 @@
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Categoria\aventura.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Categoria\comedia1.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Categoria\documentario.xaml">
@@ -161,7 +167,7 @@
 	  <MauiXaml Update="Categoria\terror.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Filmes\a5ªonda.xaml">
+	  <MauiXaml Update="Filmes\aquintaonda.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Filmes\acincopassosdevoce.xaml">

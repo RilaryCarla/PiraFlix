@@ -6,4 +6,24 @@ public partial class guerra : ContentPage
 	{
 		InitializeComponent();
 	}
+
+    private void ateoultimohomem_Clicked(object sender, EventArgs e)
+    {
+
+    }
+
+    private void coracoesdeferro_Clicked(object sender, EventArgs e)
+    {
+
+    }
+
+    private void rambo_Clicked(object sender, EventArgs e)
+    {
+
+    }
+
+    private void troia_Clicked(object sender, EventArgs e)
+    {
+
+    }
 }

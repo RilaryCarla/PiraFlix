@@ -6,4 +6,24 @@ public partial class nacional : ContentPage
 	{
 		InitializeComponent();
 	}
+
+    private void opaio_Clicked(object sender, EventArgs e)
+    {
+
+    }
+
+    private void tropadeelite_Clicked(object sender, EventArgs e)
+    {
+
+    }
+
+    private void oautodacompadecida_Clicked(object sender, EventArgs e)
+    {
+
+    }
+
+    private void cidadededeus_Clicked(object sender, EventArgs e)
+    {
+
+    }
 }

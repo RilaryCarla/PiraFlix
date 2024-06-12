@@ -4,8 +4,9 @@
              x:Class="PiraFlix.MainPage">
 
     <ContentPage.Resources>
-        
-        <ResourceDictionary>
+
+
+            <ResourceDictionary>
             
             <Style x:Key="Estilo comum" TargetType="Button">
                 <Setter Property="HorizontalOptions" Value="FillAndExpand"/>
@@ -45,5 +46,5 @@
         </Grid>
         
     </ContentPage.Content>
-
+   
 </ContentPage>

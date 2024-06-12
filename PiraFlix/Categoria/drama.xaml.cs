@@ -6,4 +6,24 @@ public partial class drama : ContentPage
 	{
 		InitializeComponent();
 	}
+
+    private void acincopassosdevoce_Clicked(object sender, EventArgs e)
+    {
+
+    }
+
+    private void oppenheimer_Clicked(object sender, EventArgs e)
+    {
+
+    }
+
+    private void omundodepoisdenos_Clicked(object sender, EventArgs e)
+    {
+
+    }
+
+    private void umolhardoparaiso_Clicked(object sender, EventArgs e)
+    {
+
+    }
 }

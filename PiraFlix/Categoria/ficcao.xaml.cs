@@ -6,4 +6,24 @@ public partial class ficcao : ContentPage
 	{
 		InitializeComponent();
 	}
+
+    private void aquintaonda_Clicked(object sender, EventArgs e)
+    {
+
+    }
+
+    private void shazam_Clicked(object sender, EventArgs e)
+    {
+
+    }
+
+    private void deadpool_Clicked(object sender, EventArgs e)
+    {
+
+    }
+
+    private void homemaranha_Clicked(object sender, EventArgs e)
+    {
+
+    }
 }

@@ -2,11 +2,30 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="PiraFlix.Categoria.romance"
-             Title="romance">
-    <VerticalStackLayout>
-        <Label 
-            Text="Welcome to .NET MAUI!"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
-    </VerticalStackLayout>
+             Title="romance"
+             BackgroundColor="Black">
+
+    <ContentPage.Content Style = "{StaticResourse Back}">
+
+        <Grid RowDefinitions="80, *" ColumnDefinitions=" *" RowSpacing="10" ColumnSpacing="10" Margin="10"
+             VerticalOptions="FillAndExpand">
+
+            <Label Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" Text="Animação" BackgroundColor="AliceBlue" TextColor="Red" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" FontSize="50"/>
+
+            <ScrollView Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2">
+
+                <Grid RowDefinitions="300, 300" ColumnDefinitions="*, *" RowSpacing="10" ColumnSpacing="10" Margin="10"
+     VerticalOptions="FillAndExpand">
+
+                    <ImageButton Grid.Row="0" Grid.Column="0" x:Name="comoeueraantesdevoce" BackgroundColor="Black" Source="comoeuera.jpg" Clicked="comoeueraantesdevoce_Clicked"/>
+                    <ImageButton Grid.Row="0" Grid.Column="1" x:Name="porlugaresincriveis" BackgroundColor="Black" Source="polugares.jpg" Clicked="porlugaresincriveis_Clicked"/>
+                    <ImageButton Grid.Row="1" Grid.Column="0" x:Name="asvantagensdeserinvisivel" BackgroundColor="Black" Source="asvantagens.jpg" Clicked="asvantagensdeserinvisivel_Clicked"/>
+                    <ImageButton Grid.Row="1" Grid.Column="1" x:Name="simplesmenteacontece" BackgroundColor="Black" Source="simplesmnte.jpg" Clicked="simplesmenteacontece_Clicked"/>
+
+                </Grid>
+            </ScrollView>
+        </Grid>
+
+    </ContentPage.Content>
+    
 </ContentPage>

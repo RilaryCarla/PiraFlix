@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="PiraFlix.Filmes.spiderwick"
-             Title="spiderwick"
-             BackgroundColor="black">
+             x:Class="PiraFlix.Filmes.aquintaonda"
+             Title="aquintaonda"
+             BackgroundColor="Black">
 
     <ContentPage.Content Style= "{StaticResourse Back}">
 
         <Grid RowDefinitions="*, *" ColumnDefinitions="*" ColumnSpacing="10" Margin="10" 
-       VerticalOptions="FillAndExpand">
+              VerticalOptions="FillAndExpand">
 
             <WebView Grid.Row="0" Grid.Column="0" 
-      Source=""/>
+             Source=""/>
 
             <ScrollView Grid.Row="1" Grid.Column="0">
 
@@ -21,14 +21,14 @@
 
                     <StackLayout VerticalOptions="CenterAndExpand" Grid.Column="1" Grid.Row="0" >
                         <Label Text="Data de lançamento" Style="{StaticResource titulo}" TextColor="White"/>
-                        <Label Text="21 de Março de 2008" Style="{StaticResource textoTitulo}" TextColor="White" />
+                        <Label Text="21 de Janeiro de 2016" Style="{StaticResource textoTitulo}" TextColor="White" />
                         <Label Text="Direção" Margin="0, 20, 0, 0" Style="{StaticResource titulo}" TextColor="White"/>
-                        <Label Text="Mark Waters" Style="{StaticResource textoTitulo}" TextColor="White"/>
+                        <Label Text="J Blakeson" Style="{StaticResource textoTitulo}" TextColor="White"/>
                     </StackLayout>
 
                     <StackLayout Grid.Column="0" Grid.Row="1" Grid.ColumnSpan="2" >
                         <Label Text="Sinopse" Style="{StaticResource titulo}" TextColor="White" Margin="0, 10, 10, 10" FontSize="20"/>
-                        <Label x:Name="sinopse" Text="Dos três filhos de Grace, Jared sempre foi considerado o causador de problemas. Assim, quando coisas estranhas acontecem depois que a família se muda para uma propriedade arruinada, a irmã Mallory, o irmão gêmeo Simon e a mãe pensam que Jared é o responsável por tudo. Na verdade, eles descobrem que criaturas mágicas que vagueiam pelas terras querem o livro mágico que Jared encontrou, um guia sobre criaturas fantásticas, escrito por Arthur Spiderwick." TextColor="White"/>
+                        <Label x:Name="sinopse" Text="Uma série de ataques alienígenas cada vez mais letais deixa a maior parte da Terra dizimada. Separada da família, a adolescente Cassie tenta desesperadamente encontrar seu irmão mais novo antes que a quinta onda de ataque extermine a humanidade." TextColor="White"/>
                     </StackLayout>
 
                 </Grid>
@@ -38,5 +38,6 @@
         </Grid>
 
     </ContentPage.Content>
+
 
 </ContentPage>

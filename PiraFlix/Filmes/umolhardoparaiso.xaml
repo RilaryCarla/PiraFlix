@@ -2,11 +2,40 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="PiraFlix.Filmes.umolhardoparaiso"
-             Title="umolhardoparaiso">
-    <VerticalStackLayout>
-        <Label 
-            Text="Welcome to .NET MAUI!"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
-    </VerticalStackLayout>
+             Title="umolhardoparaiso"
+             BackgroundColor="black">
+    <ContentPage.Content Style= "{StaticResourse Back}">
+
+        <Grid RowDefinitions="*, *" ColumnDefinitions="*" ColumnSpacing="10" Margin="10" 
+       VerticalOptions="FillAndExpand">
+
+            <WebView Grid.Row="0" Grid.Column="0" 
+      Source=""/>
+
+            <ScrollView Grid.Row="1" Grid.Column="0">
+
+                <Grid RowDefinitions="*, *" ColumnDefinitions="*, *" RowSpacing="10" ColumnSpacing="10">
+
+                    <Image Grid.Row="0" Grid.Column="0" Source="" HeightRequest="300" />
+
+                    <StackLayout VerticalOptions="CenterAndExpand" Grid.Column="1" Grid.Row="0" >
+                        <Label Text="Data de lançamento" Style="{StaticResource titulo}" TextColor="White"/>
+                        <Label Text="19 de Fevereiro de 2010" Style="{StaticResource textoTitulo}" TextColor="White" />
+                        <Label Text="Direção" Margin="0, 20, 0, 0" Style="{StaticResource titulo}" TextColor="White"/>
+                        <Label Text="Peter Jackson" Style="{StaticResource textoTitulo}" TextColor="White"/>
+                    </StackLayout>
+
+                    <StackLayout Grid.Column="0" Grid.Row="1" Grid.ColumnSpan="2" >
+                        <Label Text="Sinopse" Style="{StaticResource titulo}" TextColor="White" Margin="0, 10, 10, 10" FontSize="20"/>
+                        <Label x:Name="sinopse" Text="Susie Salmon está voltando para casa quando é assassinada por George Harvey, um vizinho que mora sozinho. Os pais de Susie, Jack e Abigail, inicialmente se recusam a acreditar na morte da filha. Em meio às investigações, a polícia conversa com George mas não o coloca entre os suspeitos, mas a família passa a desconfiar dele. Susie, que agora está em um local entre o paraíso e o inferno, observa a situação e lida com o sentimento de vingança e a vontade de ajudar sua família a superar sua morte." TextColor="White"/>
+                    </StackLayout>
+
+                </Grid>
+
+            </ScrollView>
+
+        </Grid>
+
+    </ContentPage.Content>
+
 </ContentPage>
