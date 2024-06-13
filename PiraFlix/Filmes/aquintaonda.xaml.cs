@@ -1,8 +1,8 @@
 namespace PiraFlix.Filmes;
 
-public partial class a5ªonda : ContentPage
+public partial class aquintaonda : ContentPage
 {
-	public a5ªonda()
+	public aquintaonda()
 	{
 		InitializeComponent();
 	}

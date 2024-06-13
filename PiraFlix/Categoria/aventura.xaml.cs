@@ -24,6 +24,6 @@ public partial class aventura : ContentPage
 
     private void ascronicasdespiderwick_Clicked(object sender, EventArgs e)
     {
-        Navigation.PushAsync(new Filmes.ascronicasdespiderwick());
+        Navigation.PushAsync(new Filmes.spiderwick());
     }
 }

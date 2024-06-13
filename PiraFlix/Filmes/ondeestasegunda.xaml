@@ -17,7 +17,7 @@
 
                 <Grid RowDefinitions="*, *" ColumnDefinitions="*, *" RowSpacing="10" ColumnSpacing="10">
 
-                    <Image Grid.Row="0" Grid.Column="0" Source="" HeightRequest="300" />
+                    <Image Grid.Row="0" Grid.Column="0" Source="https://www.youtube.com/watch?v=mQoEE8gpCwk" HeightRequest="300" />
 
                     <StackLayout VerticalOptions="CenterAndExpand" Grid.Column="1" Grid.Row="0" >
                         <Label Text="Data de lançamento" Style="{StaticResource titulo}" TextColor="White"/>
